@@ -116,3 +116,12 @@
     items: 1,
   });
 })(jQuery);
+
+//modal
+function showModal() {
+  $("#modal").show();
+}
+
+function hideModal() {
+  $("#modal").hide();
+}

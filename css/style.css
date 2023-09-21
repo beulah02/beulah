@@ -6978,7 +6978,7 @@ a.close.disabled {
   background-color: #d86b6b !important;
 }
 .bg-wordpress {
-  background-color: #7689c6 !important;
+  background-color: #7689c6;
 }
 
 a.bg-primary:hover,

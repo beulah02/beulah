@@ -6962,6 +6962,24 @@ a.close.disabled {
 .bg-primary {
   background-color: #7e7e7e !important;
 }
+.bg-html {
+  background-color: #f18135 !important;
+}
+.bg-css {
+  background-color: #62a1db !important;
+}
+.bg-php {
+  background-color: #7f6896 !important;
+}
+.bg-js {
+  background-color: #cfcc55 !important;
+}
+.bg-angular {
+  background-color: #d86b6b !important;
+}
+.bg-wordpress {
+  background-color: #7689c6 !important;
+}
 
 a.bg-primary:hover,
 a.bg-primary:focus,

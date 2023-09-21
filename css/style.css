@@ -523,6 +523,10 @@ h6,
   -moz-animation-duration: 1s;
   -o-animation-duration: 1s;
   animation-duration: 1s;
+  -webkit-animation-delay: 1.1s;
+  -moz-animation-delay: 1.1s;
+  -o-animation-delay: 1.1s;
+  animation-delay: 1.1s;
 }
 
 @-webkit-keyframes fadeInLeft {
@@ -10365,7 +10369,17 @@ h6,
 .navbar-light .navbar-nav .nav-link.active {
   color: #0bceaf;
 }
-
+@media (max-width: 480px) {
+  .display-3 {
+    font-size: 30px !important;
+  }
+  .small-text {
+    font-size: 15px !important;
+  }
+  .typed-cursor {
+    font-size: 20px !important;
+  }
+}
 @media (max-width: 991.98px) {
   .navbar-light .navbar-nav .nav-link {
     padding: 10px 0;
@@ -10430,7 +10444,13 @@ h6,
   border-top: 11px solid transparent;
   border-bottom: 11px solid transparent;
 }
-
+.w-75 {
+  width: 200px !important;
+  margin: 0;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
 @keyframes pulse-border {
   0% {
     transform: translateX(-50%) translateY(-50%) translateZ(0) scale(1);

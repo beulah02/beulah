@@ -6415,7 +6415,12 @@ a.close.disabled {
   text-align: center;
 }
 
-#overlay {
+#overlay-1,
+#overlay-2,
+#overlay-3,
+#overlay-4,
+#overlay-5,
+#overlay-6 {
   display: none;
   position: fixed;
   top: 0;
@@ -6426,7 +6431,12 @@ a.close.disabled {
   z-index: 1040;
 }
 
-#popup {
+#popup-1,
+#popup-2,
+#popup-3,
+#popup-4,
+#popup-5,
+#popup-6 {
   display: none;
   position: fixed;
   top: 50%;
@@ -6439,7 +6449,12 @@ a.close.disabled {
   overflow: hidden;
 }
 
-#popup-iframe {
+#popup-iframe-1,
+#popup-iframe-2,
+#popup-iframe-3,
+#popup-iframe-4,
+#popup-iframe-5,
+#popup-iframe-6 {
   width: 100%;
   height: 100%;
   z-index: 1040;

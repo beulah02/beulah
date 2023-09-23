@@ -118,16 +118,31 @@
 })(jQuery);
 
 //modal
-const button = document.getElementById("popup-button");
-const overlay = document.getElementById("overlay");
-const popup = document.getElementById("popup");
 
-button.addEventListener("click", function () {
-  overlay.style.display = "block";
-  popup.style.display = "block";
+const button1 = document.getElementById("popup-button-1");
+const overlay1 = document.getElementById("overlay-1");
+const popup1 = document.getElementById("popup-1");
+
+button1.addEventListener("click", function () {
+  overlay1.style.display = "block";
+  popup1.style.display = "block";
 });
 
-overlay.addEventListener("click", function () {
-  overlay.style.display = "none";
-  popup.style.display = "none";
+overlay1.addEventListener("click", function () {
+  overlay1.style.display = "none";
+  popup1.style.display = "none";
+});
+
+const button2 = document.getElementById("popup-button-2");
+const overlay2 = document.getElementById("overlay-2");
+const popup2 = document.getElementById("popup-2");
+
+button2.addEventListener("click", function () {
+  overlay2.style.display = "block";
+  popup2.style.display = "block";
+});
+
+overlay2.addEventListener("click", function () {
+  overlay2.style.display = "none";
+  popup2.style.display = "none";
 });

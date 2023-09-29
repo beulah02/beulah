@@ -117,8 +117,9 @@
   });
 })(jQuery);
 
-//modal
+//PORTFOLIO GALLERY
 
+//Gallery-1
 const button1 = document.getElementById("popup-button-1");
 const overlay1 = document.getElementById("overlay-1");
 const popup1 = document.getElementById("popup-1");
@@ -133,6 +134,7 @@ overlay1.addEventListener("click", function () {
   popup1.style.display = "none";
 });
 
+//Gallery-2
 const button2 = document.getElementById("popup-button-2");
 const overlay2 = document.getElementById("overlay-2");
 const popup2 = document.getElementById("popup-2");
@@ -145,4 +147,64 @@ button2.addEventListener("click", function () {
 overlay2.addEventListener("click", function () {
   overlay2.style.display = "none";
   popup2.style.display = "none";
+});
+
+//Gallery-3
+const button3 = document.getElementById("popup-button-3");
+const overlay3 = document.getElementById("overlay-3");
+const popup3 = document.getElementById("popup-3");
+
+button3.addEventListener("click", function () {
+  overlay3.style.display = "block";
+  popup3.style.display = "block";
+});
+
+overlay3.addEventListener("click", function () {
+  overlay3.style.display = "none";
+  popup3.style.display = "none";
+});
+
+//Gallery-4
+const button4 = document.getElementById("popup-button-4");
+const overlay4 = document.getElementById("overlay-4");
+const popup4 = document.getElementById("popup-4");
+
+button4.addEventListener("click", function () {
+  overlay4.style.display = "block";
+  popup4.style.display = "block";
+});
+
+overlay4.addEventListener("click", function () {
+  overlay4.style.display = "none";
+  popup4.style.display = "none";
+});
+
+//Gallery-5
+const button5 = document.getElementById("popup-button-5");
+const overlay5 = document.getElementById("overlay-5");
+const popup5 = document.getElementById("popup-5");
+
+button5.addEventListener("click", function () {
+  overlay5.style.display = "block";
+  popup5.style.display = "block";
+});
+
+overlay5.addEventListener("click", function () {
+  overlay5.style.display = "none";
+  popup5.style.display = "none";
+});
+
+//Gallery-3
+const button6 = document.getElementById("popup-button-6");
+const overlay6 = document.getElementById("overlay-6");
+const popup6 = document.getElementById("popup-6");
+
+button6.addEventListener("click", function () {
+  overlay6.style.display = "block";
+  popup6.style.display = "block";
+});
+
+overlay6.addEventListener("click", function () {
+  overlay6.style.display = "none";
+  popup6.style.display = "none";
 });

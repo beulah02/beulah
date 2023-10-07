@@ -6420,7 +6420,10 @@ a.close.disabled {
 #overlay-3,
 #overlay-4,
 #overlay-5,
-#overlay-6 {
+#overlay-6,
+#overlay-7,
+#overlay-8,
+#overlay-9 {
   display: none;
   position: fixed;
   top: 0;
@@ -6436,7 +6439,10 @@ a.close.disabled {
 #popup-3,
 #popup-4,
 #popup-5,
-#popup-6 {
+#popup-6,
+#popup-7,
+#popup-8,
+#popup-9 {
   display: none;
   position: fixed;
   top: 50%;
@@ -6454,7 +6460,10 @@ a.close.disabled {
 #popup-iframe-3,
 #popup-iframe-4,
 #popup-iframe-5,
-#popup-iframe-6 {
+#popup-iframe-6,
+#popup-iframe-7,
+#popup-iframe-8,
+#popup-iframe-9 {
   width: 100%;
   height: 100%;
   z-index: 1040;

@@ -194,7 +194,7 @@ overlay5.addEventListener("click", function () {
   popup5.style.display = "none";
 });
 
-//Gallery-3
+//Gallery-6
 const button6 = document.getElementById("popup-button-6");
 const overlay6 = document.getElementById("overlay-6");
 const popup6 = document.getElementById("popup-6");
@@ -207,4 +207,49 @@ button6.addEventListener("click", function () {
 overlay6.addEventListener("click", function () {
   overlay6.style.display = "none";
   popup6.style.display = "none";
+});
+
+//Gallery-7
+const button7 = document.getElementById("popup-button-7");
+const overlay7 = document.getElementById("overlay-7");
+const popup7 = document.getElementById("popup-7");
+
+button7.addEventListener("click", function () {
+  overlay7.style.display = "block";
+  popup7.style.display = "block";
+});
+
+overlay7.addEventListener("click", function () {
+  overlay7.style.display = "none";
+  popup7.style.display = "none";
+});
+
+//Gallery-8
+const button8 = document.getElementById("popup-button-8");
+const overlay8 = document.getElementById("overlay-8");
+const popup8 = document.getElementById("popup-8");
+
+button8.addEventListener("click", function () {
+  overlay8.style.display = "block";
+  popup8.style.display = "block";
+});
+
+overlay8.addEventListener("click", function () {
+  overlay8.style.display = "none";
+  popup8.style.display = "none";
+});
+
+//Gallery-9
+const button9 = document.getElementById("popup-button-9");
+const overlay9 = document.getElementById("overlay-9");
+const popup9 = document.getElementById("popup-9");
+
+button9.addEventListener("click", function () {
+  overlay9.style.display = "block";
+  popup9.style.display = "block";
+});
+
+overlay9.addEventListener("click", function () {
+  overlay9.style.display = "none";
+  popup9.style.display = "none";
 });

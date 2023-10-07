@@ -8710,7 +8710,12 @@ button.bg-dark:focus {
 .mx-auto {
   margin-left: auto !important;
 }
-
+@media (max-width: 368px) {
+  .pt-5,
+  .py-5 {
+    padding-top: 1rem !important;
+  }
+}
 @media (min-width: 576px) {
   .m-sm-0 {
     margin: 0 !important;
